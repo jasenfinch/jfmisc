@@ -14,3 +14,12 @@ theme_neat(base_size = 11, base_family = "")
 \description{
 A ggplot2 theme that includes bold face titles and neat facet themes.
 }
+\examples{
+iris \%>\% 
+  ggplot2::ggplot(ggplot2::aes(x = Sepal.Length,
+                               y = Sepal.Width,
+                               colour = Species)) +
+  ggplot2::geom_point() +
+  ggplot2::facet_wrap(~Species) +
+  theme_neat() 
+}
