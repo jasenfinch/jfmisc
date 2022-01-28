@@ -1,5 +1,6 @@
 #' A neat ggplot2 theme
-#' @description A ggplot2 theme that includes bold face titles and neat facet themes.
+#' @description A ggplot2 theme that includes bold face titles and 
+#' neat facet themes.
 #' @param base_size base font size, given in pts
 #' @param base_family base font family
 #' @examples
