@@ -1,3 +1,7 @@
+# jfmisc 0.0.2
+
+* Added the `%!in%` operator for non-matching values.
+
 # jfmisc 0.0.1
 
 * Added a `NEWS.md` file to track changes to the package.
