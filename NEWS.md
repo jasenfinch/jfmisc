@@ -1,6 +1,6 @@
 # jfmisc 0.0.2
 
-* Added the `%!in%` operator for non-matching values.
+* Added the `%!in%` operator to detect unmatched values.
 
 # jfmisc 0.0.1
 
