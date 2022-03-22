@@ -1,4 +1,5 @@
-#' @name %!in%
+#' @name nomatch
+#' @rdname nomatch
 #' @title Non-matching operator
 #' @description A binary operator to detect non matching values. The opposite of the `%in%` operator. 
 #' @param x vector or NULL: the values to be matched
