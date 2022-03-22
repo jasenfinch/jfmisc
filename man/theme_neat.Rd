@@ -12,7 +12,8 @@ theme_neat(base_size = 11, base_family = "")
 \item{base_family}{base font family}
 }
 \description{
-A ggplot2 theme that includes bold face titles and neat facet themes.
+A ggplot2 theme that includes bold face titles and
+neat facet themes.
 }
 \examples{
 iris \%>\% 
