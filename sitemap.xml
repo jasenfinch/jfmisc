@@ -19,12 +19,12 @@
     <loc>https://jasenfinch.github.io/jfmisc/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://jasenfinch.github.io/jfmisc/reference/nomatch.html</loc>
-  </url>
-  <url>
     <loc>https://jasenfinch.github.io/jfmisc/reference/reexports.html</loc>
   </url>
   <url>
     <loc>https://jasenfinch.github.io/jfmisc/reference/theme_neat.html</loc>
+  </url>
+  <url>
+    <loc>https://jasenfinch.github.io/jfmisc/reference/unmatch.html</loc>
   </url>
 </urlset>
