@@ -7,14 +7,21 @@ Authors@R:
 Description: Various useful R functions.
 URL: https://jasenfinch.github.io/jfmisc/
 BugReports: https://github.com/jasenfinch/jfmisc/issues
-Imports: ggplot2,
-        ggtext,
-        magrittr
+Imports: 
+    ggplot2,
+    ggtext,
+    gramr,
+    magrittr,
+    spelling,
+    wordcountaddin
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
 Suggests: 
     covr,
     testthat (>= 3.0.0)
+Remotes:
+    benmarwick/wordcountaddin,
+    jasdumas/gramr
 Config/testthat/edition: 3
