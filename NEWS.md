@@ -1,3 +1,7 @@
+# jfmisc 0.0.3
+
+* Added the `writingChecks()` function for word count, spelling and grammar checks in `.Rmd` files.
+
 # jfmisc 0.0.2
 
 * Added the `%!in%` operator to detect unmatched values.
