@@ -6,3 +6,11 @@ test_that("writingChecks works", {
     '######### Writing Checks #########'
   )
 })
+
+test_that('writingChecks errors if non .Rmd file specified',{
+  expect_error(writingChecks('incorrect.R'))
+})
+
+test_that('writingChecks errors if file does not exist',{
+  expect_error(writingChecks('incorrect.Rmd'))
+})
