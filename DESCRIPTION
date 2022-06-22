@@ -1,17 +1,21 @@
 Package: jfmisc
 Title: Miscellaneous R functions
-Version: 0.0.3
+Version: 0.0.4
 Authors@R: 
     person("Jasen", "Finch", , "jsf9@aber.ac.uk", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0002-6070-7476"))
 Description: Various useful R functions.
 URL: https://jasenfinch.github.io/jfmisc/
 BugReports: https://github.com/jasenfinch/jfmisc/issues
-Imports: ggplot2,
-        ggtext,
-        magrittr,
-        readr,
-        xlsx
+Imports: 
+    ggplot2,
+    ggtext,
+    gramr,
+    magrittr,
+    readr,
+    spelling,
+    wordcountaddin,
+    xlsx
 License: GPL (>= 3)
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -19,4 +23,7 @@ RoxygenNote: 7.2.0
 Suggests: 
     covr,
     testthat (>= 3.0.0)
+Remotes:
+    benmarwick/wordcountaddin,
+    jasdumas/gramr
 Config/testthat/edition: 3

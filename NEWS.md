@@ -1,6 +1,10 @@
-# jfmisc 0.0.3
+# jfmisc 0.0.4
 
 * Added export wrapper functions that then return the exported file path.
+
+# jfmisc 0.0.3
+
+* Added the `writingChecks()` function for word count, spelling and grammar checks in `.Rmd` files.
 
 # jfmisc 0.0.2
 
