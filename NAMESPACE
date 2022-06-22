@@ -2,6 +2,7 @@
 
 export("%!in%")
 export("%>%")
+export(exportCSV)
 export(theme_neat)
 importFrom(ggplot2,element_blank)
 importFrom(ggplot2,element_text)
@@ -9,3 +10,5 @@ importFrom(ggplot2,theme)
 importFrom(ggplot2,theme_classic)
 importFrom(ggtext,element_markdown)
 importFrom(magrittr,"%>%")
+importFrom(readr,write_csv)
+importFrom(xlsx,write.xlsx)
