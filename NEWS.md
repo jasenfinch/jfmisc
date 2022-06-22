@@ -1,3 +1,7 @@
+# jfmisc 0.0.3
+
+* Added export wrapper functions that then return the exported file path.
+
 # jfmisc 0.0.2
 
 * Added the `%!in%` operator to detect unmatched values.
