@@ -3,7 +3,7 @@
 #' @description Handy wrapper functions to export data tables that then returns the file path of the exported file. This can be useful in applications such as within `tarchetypes::tar_file`.
 #' @param x a data frame or tibble to export
 #' @param file file or connection to write to
-#' @param ... arguments to pass to `readr::write_csv()` or `xlsx::write.xlsx`
+#' @param ... arguments to pass to `readr::write_csv` or `xlsx::write.xlsx`
 #' @return The file path of the exported file.
 #' @details If the file path directory does not exist, the directory is created recuresively prior to export.
 #' @examples

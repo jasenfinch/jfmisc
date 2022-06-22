@@ -14,7 +14,7 @@ exportXLSX(x, file, ...)
 
 \item{file}{file or connection to write to}
 
-\item{...}{arguments to pass to \code{readr::write_csv()} or \code{xlsx::write.xlsx}}
+\item{...}{arguments to pass to \code{readr::write_csv} or \code{xlsx::write.xlsx}}
 }
 \value{
 The file path of the exported file.
