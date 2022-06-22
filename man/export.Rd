@@ -2,9 +2,12 @@
 % Please edit documentation in R/export.R
 \name{exportCSV}
 \alias{exportCSV}
+\alias{exportXLSX}
 \title{Export a file}
 \usage{
 exportCSV(x, file, ...)
+
+exportXLSX(x, file, ...)
 }
 \arguments{
 \item{x}{a data frame or tibble to export}
@@ -17,15 +20,15 @@ exportCSV(x, file, ...)
 The file path of the exported file.
 }
 \description{
-Handy wrapper functions to export data tables that then returns the file path of the exported file. This can be useful in applications such as in conjuction with \code{tarchetypes::tar_file}.
+Handy wrapper functions to export data tables that then returns the file path of the exported file. This can be useful in applications such as within \code{tarchetypes::tar_file}.
 }
 \details{
-If the file path directory does not exist, the directory is created prior to export.
+If the file path directory does not exist, the directory is created recuresively prior to export.
 }
 \examples{
 ## Export to a csv
 exportCSV(iris, paste0(tempdir(),"/iris.csv"))
 
 ## Export to an Excel workbook
-exportCSV(iris, paste0(tempdir(),"/iris.xlsx"))
+exportXLSX(iris, paste0(tempdir(),"/iris.xlsx"))
 }

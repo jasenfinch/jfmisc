@@ -30,6 +30,9 @@ exportCSV <- function(x,file,...){
   return(file)
 }
 
+#' @rdname export
+#' @export
+
 exportXLSX <- function(x,file,...){
   
   if (!dir.exists(dirname(file))) {
