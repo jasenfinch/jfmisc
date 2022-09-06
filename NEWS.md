@@ -1,3 +1,7 @@
+# jfmisc 0.0.5
+
+* Re-export `ptol_pal()`, `scale_colour_ptol()` and `scale_fill_ptol()` from [`ggthemes`](https://jrnold.github.io/ggthemes/).
+
 # jfmisc 0.0.4
 
 * Added export wrapper functions that then return the exported file path.
