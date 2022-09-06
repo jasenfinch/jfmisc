@@ -4,6 +4,9 @@
 \name{reexports}
 \alias{reexports}
 \alias{\%>\%}
+\alias{ptol_pal}
+\alias{scale_colour_ptol}
+\alias{scale_fill_ptol}
 \title{Objects exported from other packages}
 \keyword{internal}
 \description{
@@ -11,6 +14,8 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
+  \item{ggthemes}{\code{\link[ggthemes]{ptol_pal}}, \code{\link[ggthemes:scale_ptol]{scale_colour_ptol}}, \code{\link[ggthemes:scale_ptol]{scale_fill_ptol}}}
+
   \item{magrittr}{\code{\link[magrittr:pipe]{\%>\%}}}
 }}
 
