@@ -8,17 +8,18 @@
 #' allowing markdown syntax to be included in plot text elements such as the title or axis labels. See the example.
 #' @examples
 #' iris %>% 
-#' ggplot2::ggplot(ggplot2::aes(x = Sepal.Length,
-#'                              y = Sepal.Width,
-#'                              colour = Species)) +
-#'   ggplot2::geom_point() +
+#'   ggplot2::ggplot(ggplot2::aes(x = Sepal.Length,
+#'                                y = Sepal.Width,
+#'                                fill = Species)) +
+#'   ggplot2::geom_point(size = 3,
+#'                       shape = 21) +
 #'   ggplot2::facet_wrap(~Species) +
 #'   ggplot2::labs(title = 'Another *Iris* dataset plot',
-#'                 subtitle = 'Just as an **example**',
+#'                 subtitle = 'As an **example**',
 #'                 caption = ' A caption that includes some **markdown**',
 #'                 x = 'Sepal length',
 #'                 y = 'Sepal width') +
-#'   theme_neat()
+#'   theme_neat() 
 #' @importFrom ggplot2 theme_classic theme element_text element_blank
 #' @importFrom ggtext element_markdown
 #' @export
