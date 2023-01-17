@@ -28,8 +28,8 @@ theme_neat <- function(base_size = 11, base_family = ""){
                 base_family = base_family) +
     theme(
       plot.title = element_markdown(face = 'bold',
-                                hjust = 0.5),
-      plot.subtitle = element_markdown(),
+                                    size = base_size + 4),
+      plot.subtitle = element_markdown(size = base_size + 1),
       plot.caption = element_markdown(hjust = 0),
       axis.title = element_markdown(face = 'bold'),
       axis.text = element_markdown(colour = 'black'),
