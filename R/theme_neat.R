@@ -27,6 +27,7 @@ theme_neat <- function(base_size = 11, base_family = ""){
       legend.position = 'bottom',
       legend.title = element_text(face = 'bold'),
       strip.background = element_blank(),
-      strip.text = element_text(face = 'bold')
+      strip.text = element_text(face = 'bold',
+                                size = base_size + 1)
     )
 }
