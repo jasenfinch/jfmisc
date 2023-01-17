@@ -30,13 +30,14 @@ theme_neat <- function(base_size = 11, base_family = ""){
     theme(
       plot.title = element_markdown(face = 'bold',
                                     size = base_size + 4),
-      plot.subtitle = element_markdown(size = base_size + 1),
-      plot.caption = element_markdown(hjust = 0),
+      plot.subtitle = element_markdown(size = base_size + 2),
+      plot.caption = element_markdown(hjust = 0,
+                                      size = base_size),
       axis.title = element_markdown(face = 'bold'),
       axis.text = element_markdown(colour = 'black'),
       legend.position = 'bottom',
       legend.title = element_markdown(face = 'bold'),
-      legend.text = element_markdown(),
+      legend.text = element_markdown(size = base_size),
       strip.background = element_blank(),
       strip.text = element_markdown(face = 'bold',
                                 size = base_size + 1)
