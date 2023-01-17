@@ -1,3 +1,11 @@
+# jfmisc 0.1.0
+
+* Added the string operators `%+%`, `%+ %`, `%+_%`, `%+-%` for concatenating vectors.
+
+* `theme_neat()` now includes [`ggtext::element_markdown`](https://wilkelab.org/ggtext/reference/element_markdown.html) in all text theme elements allowing markdown syntax to be included in these elements such as the plot title or axis text.
+
+* The relative sizes of the plot title, plot subtitle, caption, facet strip text and legend text have all been increased in `theme_neat()`.
+
 # jfmisc 0.0.5
 
 * Re-export `ptol_pal()`, `scale_colour_ptol()` and `scale_fill_ptol()` from [`ggthemes`](https://jrnold.github.io/ggthemes/).
