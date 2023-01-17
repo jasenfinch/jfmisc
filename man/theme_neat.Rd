@@ -15,12 +15,21 @@ theme_neat(base_size = 11, base_family = "")
 A ggplot2 theme that includes bold face titles and
 neat facet themes.
 }
+\details{
+All ggplot2 theme elements are set using \href{https://wilkelab.org/ggtext/reference/element_markdown.html}{\code{ggtext::element_markdown}}
+allowing markdown syntax to be included in plot text elements such as the title or axis labels. See the example.
+}
 \examples{
 iris \%>\% 
-  ggplot2::ggplot(ggplot2::aes(x = Sepal.Length,
-                               y = Sepal.Width,
-                               colour = Species)) +
+ggplot2::ggplot(ggplot2::aes(x = Sepal.Length,
+                             y = Sepal.Width,
+                             colour = Species)) +
   ggplot2::geom_point() +
   ggplot2::facet_wrap(~Species) +
-  theme_neat() 
+  ggplot2::labs(title = 'Another *Iris* dataset plot',
+                subtitle = 'Just as an **example**',
+                caption = ' A caption that includes some **markdown**',
+                x = 'Sepal length',
+                y = 'Sepal width') +
+  theme_neat()
 }
