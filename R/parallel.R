@@ -25,13 +25,17 @@ suitableParallelPlan <- function(strategy = NULL,workers = NULL,RAM_per_worker =
       as.numeric()
     
     suitable_workers <- floor(total_RAM / RAM_per_worker)
-    max_workers <- availableCores() * proportion_max_workers
+    max_workers <- ceiling(availableCores() * proportion_max_workers)
     
     if (suitable_workers > max_workers) {
       workers <- max_workers 
     } else {
       workers <- suitable_workers
     }
+  }
+  
+  if (workers < 1){
+    workers <- 1
   }
   
   plan(strategy,workers = workers)
