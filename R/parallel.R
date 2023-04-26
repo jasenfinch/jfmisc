@@ -1,9 +1,9 @@
 #' Generate a suitable parallel processing plan
 #' @description Generate a suitable parallel processing future plan for your session. See `?future::plan` for more details on future plans.
-#' @param strategy the parallel strategy to use. See `?future::plan` for details. If `NULL` (the default), an appropriate strategy will be detected.
+#' @param strategy The parallel strategy to use. See `?future::plan` for details. If `NULL` (the default), an appropriate strategy will be detected.
 #' @param workers The number of workers to use. If `NULL`, the arguments `RAM_per_worker` and `proportion_max_workers` will be used to calculate a suitable number of workers.
-#' @param RAM_per_worker The minimum random access memory (in gigabytes) to allocate when calculating a suitable number of workers. Ignored if argument `workers` is not `NULL`.
-#' @param proportion_max_workers A value between 0 and 1. The maximum number of workers to allocated as a proportion of the total number of workers available (as detected by `future::availableCores()`). Ignored if argument `workers` is not `NULL`.
+#' @param RAM_per_worker The memory (in gigabytes) to allocate to each worker when calculating a suitable number of workers. Ignored if argument `workers` is not `NULL`.
+#' @param proportion_max_workers A value between 0 and 1. The maximum number of workers to allocate as a proportion of the total number of workers available (as detected by `future::availableCores()`). Ignored if argument `workers` is not `NULL`.
 #' @examples 
 #' \dontrun{
 #' suitableParallelPlan()

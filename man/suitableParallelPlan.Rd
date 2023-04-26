@@ -12,13 +12,13 @@ suitableParallelPlan(
 )
 }
 \arguments{
-\item{strategy}{the parallel strategy to use. See \code{?future::plan} for details. If \code{NULL} (the default), an appropriate strategy will be detected.}
+\item{strategy}{The parallel strategy to use. See \code{?future::plan} for details. If \code{NULL} (the default), an appropriate strategy will be detected.}
 
 \item{workers}{The number of workers to use. If \code{NULL}, the arguments \code{RAM_per_worker} and \code{proportion_max_workers} will be used to calculate a suitable number of workers.}
 
-\item{RAM_per_worker}{The minimum random access memory (in gigabytes) to allocate when calculating a suitable number of workers. Ignored if argument \code{workers} is not \code{NULL}.}
+\item{RAM_per_worker}{The memory (in gigabytes) to allocate to each worker when calculating a suitable number of workers. Ignored if argument \code{workers} is not \code{NULL}.}
 
-\item{proportion_max_workers}{A value between 0 and 1. The maximum number of workers to allocated as a proportion of the total number of workers available (as detected by \code{future::availableCores()}). Ignored if argument \code{workers} is not \code{NULL}.}
+\item{proportion_max_workers}{A value between 0 and 1. The maximum number of workers to allocate as a proportion of the total number of workers available (as detected by \code{future::availableCores()}). Ignored if argument \code{workers} is not \code{NULL}.}
 }
 \description{
 Generate a suitable parallel processing future plan for your session. See \code{?future::plan} for more details on future plans.
