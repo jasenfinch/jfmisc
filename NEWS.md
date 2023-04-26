@@ -1,3 +1,7 @@
+# jfmisc 0.1.1
+
+* Added the `suitableParallelPlan()` function to generate suitable parallel plans from the [`future`](https://future.futureverse.org/) package.
+
 # jfmisc 0.1.0
 
 * Added the string operators `%+%`, `%+ %`, `%+_%`, `%+-%` for concatenating vectors.
