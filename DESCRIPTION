@@ -8,11 +8,13 @@ Description: Various useful R functions.
 URL: https://jasenfinch.github.io/jfmisc/
 BugReports: https://github.com/jasenfinch/jfmisc/issues
 Imports: 
+    future,
     ggplot2,
     ggtext,
     ggthemes,
     gramr,
     magrittr,
+    memuse,
     readr,
     spelling,
     wordcountaddin,
