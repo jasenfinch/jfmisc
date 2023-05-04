@@ -10,7 +10,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">jfmisc</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.1</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.2</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -45,8 +45,15 @@
     </div>
 
     <div class="section level2">
+<h2 class="pkg-version" data-toc-text="0.1.2" id="jfmisc-012">jfmisc 0.1.2<a class="anchor" aria-label="anchor" href="#jfmisc-012"></a></h2>
+<ul><li><p>Added the <code><a href="../reference/parallel.html">suitableParallelStrategy()</a></code> and <code><a href="../reference/parallel.html">suitableParallelWorkers()</a></code> functions.</p></li>
+<li><p>The defaults of arguments <code>strategy</code> and <code>workers</code> in <code><a href="../reference/parallel.html">suitableParallelPlan()</a></code> are now <code><a href="../reference/parallel.html">suitableParallelStrategy()</a></code> and <code><a href="../reference/parallel.html">suitableParallelWorkers()</a></code> respectively.</p></li>
+<li><p>The arguments <code>RAM_per_worker</code> and <code>proportion_max_workers</code> have been removed from <code><a href="../reference/parallel.html">suitableParallelPlan()</a></code> and are configurable from <code><a href="../reference/parallel.html">suitableParallelWorkers()</a></code>.</p></li>
+<li><p>The argument <code>...</code> has been added to <code><a href="../reference/parallel.html">suitableParallelPlan()</a></code> to enable arguments to be passed to <code><a href="https://future.futureverse.org/reference/plan.html" class="external-link">future::plan()</a></code>.</p></li>
+</ul></div>
+    <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.1.1" id="jfmisc-011">jfmisc 0.1.1<a class="anchor" aria-label="anchor" href="#jfmisc-011"></a></h2>
-<ul><li>Added the <code><a href="../reference/suitableParallelPlan.html">suitableParallelPlan()</a></code> function to generate suitable parallel plans from the <a href="https://future.futureverse.org/" class="external-link"><code>future</code></a> package.</li>
+<ul><li>Added the <code><a href="../reference/parallel.html">suitableParallelPlan()</a></code> function to generate suitable parallel plans from the <a href="https://future.futureverse.org/" class="external-link"><code>future</code></a> package.</li>
 </ul></div>
     <div class="section level2">
 <h2 class="pkg-version" data-toc-text="0.1.0" id="jfmisc-010">jfmisc 0.1.0<a class="anchor" aria-label="anchor" href="#jfmisc-010"></a></h2>
