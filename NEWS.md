@@ -1,3 +1,13 @@
+# jfmisc 0.1.2
+
+* Added the `suitableParallelStrategy()` and `suitableParallelWorkers()` functions.
+
+* The defaults of arguments `strategy` and `workers` in `suitableParallelPlan()` are now `suitableParallelStrategy()` and `suitableParallelWorkers()` respectively.
+
+* The arguments `RAM_per_worker` and `proportion_max_workers` have been removed from `suitableParallelPlan()` and are configurable from `suitableParallelWorkers()`.
+
+* The argument `...` has been added to `suitableParallelPlan()` to enable arguments to be passed to `future::plan()`.
+
 # jfmisc 0.1.1
 
 * Added the `suitableParallelPlan()` function to generate suitable parallel plans from the [`future`](https://future.futureverse.org/) package.
