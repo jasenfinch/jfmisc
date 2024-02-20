@@ -37,7 +37,7 @@ theme_neat <- function(base_size = 11, base_family = ""){
       axis.text = element_markdown(colour = 'black'),
       legend.position = 'bottom',
       legend.title = element_markdown(face = 'bold'),
-      legend.text = element_markdown(size = base_size),
+      legend.text = element_text(size = base_size),
       strip.background = element_blank(),
       strip.text = element_markdown(face = 'bold',
                                 size = base_size + 1)
