@@ -1,3 +1,9 @@
+# jfmisc 0.1.3
+
+* Add `scale_*_gradient_red()` functions for conveniently adding a red gradient scale to [`ggplot2`](https://ggplot2.tidyverse.org/) plots.
+
+* Remove [`ggtext::element_markdown`](https://wilkelab.org/ggtext/reference/element_markdown.html) from the legend text in `theme_neat()` to avoid a viewport error.
+
 # jfmisc 0.1.2
 
 * Added the `suitableParallelStrategy()` and `suitableParallelWorkers()` functions.
